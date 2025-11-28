@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Kontak</title>
+    <style>
+        /* Internal CSS (copied from index.html for consistency) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ea8ef3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #000208;
+        }
+
+        main {
+            padding: 40px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #010209;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        /* Form Specific Styling */
+        form label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            /* Includes padding and border in the element's total width and height */
+        }
+
+        form textarea {
+            resize: vertical;
+        }
+
+        form button {
+            background-color: #fa95ee;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #000105;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #ddd;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Kontak Saya</h1>
+        <nav>
+            <a href="halaman beranda.html">Home</a> |
+            <a href="Halaman Profile.html">Profile</a> |
+            <a href="Halaman kontak.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ayo Terhubung!</h2>
+            <form action="#" method="POST">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Nama Lengkap Anda">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="aisah@gmail.com">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required
+                    placeholder="Tulis pesan Anda di sini..."></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+
+            <p style="margin-top: 30px;">
+                Saya akan segera menanggapi pertanyaan Anda. Terima kasih atas minat Anda
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aisah Ramadhani All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
